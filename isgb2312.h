@@ -1,0 +1,1 @@
+int is_gb2312(char const *);
