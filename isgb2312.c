@@ -6774,3 +6774,10 @@ int is_gb2312(char const *s) {
 	}
 	return 0;
 }
+int main(int n, char **a) {
+	if (is_gb2312(a[1])) {
+		return 0;
+	}
+	return -1;
+}
+
